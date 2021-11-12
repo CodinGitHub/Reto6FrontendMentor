@@ -2,32 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <main>
+    <!-- seccion 1   -->
+    <section class="section1">
+      <div class="image">
+        <div id="capa"></div>
+      </div>
+    </section>
+    <!-- seccion 2 -->
+    <section class="section2">
+      <h1>Get <span>insights</span> that help your business grow.</h1>
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      <div class="stats">
+        <div class="stats-details">
+          <div class="amount">10k+</div>
+          <div class="concept">companies</div>
+        </div>
+        <div class="stats-details">
+          <div class="amount">314</div>
+          <div class="concept">templates</div>
+        </div>
+        <div class="stats-details">
+          <div class="amount">12M+</div>
+          <div class="concept">queries</div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://coding-tube.com/">David Ruiz</a>.
+  </footer>
 </body>
 </html>
